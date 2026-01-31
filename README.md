@@ -4,15 +4,9 @@ Describe a problem in plain English. An LLM translates it to SMT-LIB, a solver f
 
 ## Quick Start
 
-1. **Install dependencies**: `npm install`
-2. **Copy required files to public** (first time only):
-   ```powershell
-   copy node_modules\z3-solver\build\z3-built.js public\
-   copy node_modules\z3-solver\build\z3-built.wasm public\
-   copy node_modules\coi-serviceworker\coi-serviceworker.js public\
-   ```
-3. **Start dev server**: `npm run dev`
-4. **Configure API**: Enter your OpenRouter API key in the app.
+1. **Install dependencies**: `npm install` (automatically copies required vendor files to `public/`)
+2. **Start dev server**: `npm run dev`
+3. **Configure API**: Enter your OpenRouter API key in the app.
 
 ## How It Works
 
